@@ -63,7 +63,6 @@ To use GPT-3.5 for LLM detection:
 ## 🛠 Requirements
 - Python 3.8+
 - `pandas`, `openai`, `matplotlib`
-- Run `pip install -r requirements.txt` (or install manually)
 
 ## 📈 Optional Visualizations
 You can generate bar charts or pie charts from `results.csv` to show:
