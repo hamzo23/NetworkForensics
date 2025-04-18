@@ -1,0 +1,51 @@
+Timestamp,Source IP,Destination IP,Protocol,Port,Packet Size,Info,Rule,Anomaly,Score,LLM_Probability,LLM_Type,Final_Label
+2025-04-17 00:00:00,192.168.1.93,192.168.1.16,SSH,180,702,query initiated,0,0,0,75%,Brute force SSH attack,High
+2025-04-17 00:00:01,192.168.1.69,192.168.1.44,SMB,255,1061,response initiated,0,1,1,80%,Brute-force attack,High
+2025-04-17 00:00:02,192.168.1.15,192.168.1.81,HTTPS,291,1152,query initiated,0,1,1,5%,Data exfiltration,Medium
+2025-04-17 00:00:09,192.168.1.58,192.168.1.96,FTP,488,1130,ack initiated,0,1,1,25%,Data Exfiltration,Medium
+2025-04-17 00:00:12,192.168.1.40,192.168.1.12,ICMP,563,429,connect initiated,0,1,1,5%,Information Gathering,Medium
+2025-04-17 00:00:05,192.168.1.61,192.168.1.92,DNS,517,945,query initiated,0,0,0,5%,DNS tunneling,Low
+2025-04-17 00:00:18,192.168.1.76,192.168.1.95,HTTP,753,782,query initiated,0,0,0,10%,Data exfiltration,Low
+2025-04-17 00:00:21,192.168.1.18,192.168.1.77,SSH,291,318,connect initiated,0,0,0,75%,Brute Force SSH Attack,High
+2025-04-17 00:00:24,192.168.1.13,172.217.5.110,HTTP,355,1036,cleanup initiated,1,1,2,30%,Data Exfiltration,High
+2025-04-17 00:00:18,192.168.1.12,192.168.1.70,ICMP,590,256,query initiated,0,1,1,5%,Suspicious Activity,Medium
+2025-04-17 00:00:10,192.168.1.92,192.168.1.92,HTTP,24,375,query initiated,0,0,0,80%,DDoS,High
+2025-04-17 00:00:33,192.168.1.27,192.168.1.79,FTP,1010,543,response initiated,0,0,0,10%,Data Exfiltration,Low
+2025-04-17 00:00:24,192.168.1.32,192.168.1.23,SSH,27,141,handshake initiated,0,0,0,75%,Brute-force SSH attack,High
+2025-04-17 00:00:13,192.168.1.72,192.168.1.94,FTP,510,953,query initiated,0,0,0,75%,Data Exfiltration,High
+2025-04-17 00:00:42,192.168.1.37,192.168.1.50,DNS,478,193,handshake initiated,0,0,0,5%,DNS tunneling,Low
+2025-04-17 00:00:45,192.168.1.77,192.168.1.52,SSH,90,625,response initiated,0,0,0,85%,Brute Force SSH,High
+2025-04-17 00:00:48,192.168.1.88,192.168.1.24,SSH,567,1158,query initiated,0,1,1,75%,Brute force attack,High
+2025-04-17 00:00:51,192.168.1.73,192.168.1.86,FTP,261,181,ack initiated,0,0,0,15%,Data exfiltration,Low
+2025-04-17 00:00:18,192.168.1.76,192.168.1.32,SMB,162,1012,query initiated,0,1,1,75%,Brute Force Attack,High
+2025-04-17 00:00:57,192.168.1.51,192.168.1.85,SMB,227,133,ack initiated,0,1,1,70%,Brute-force attack,High
+2025-04-17 00:00:40,192.168.1.25,192.168.1.36,FTP,778,968,handshake initiated,0,0,0,75%,Data Exfiltration,High
+2025-04-17 00:00:42,192.168.1.42,192.168.1.56,HTTP,873,1184,handshake initiated,0,1,1,25%,Port Scanning,Medium
+2025-04-17 00:00:44,192.168.1.13,192.168.1.59,ICMP,388,119,query initiated,0,1,1,5%,Denial of Service (DoS),Medium
+2025-04-17 00:01:09,192.168.1.14,192.168.1.45,HTTP,386,484,connect initiated,0,0,0,5%,Suspicious Activity,Low
+2025-04-17 00:00:48,192.168.1.79,198.51.100.25,HTTPS,423,1087,delete initiated,1,1,2,85%,Data Exfiltration,High
+2025-04-17 00:01:15,192.168.1.65,192.168.1.86,HTTP,157,406,handshake initiated,0,0,0,10%,Suspicious Activity,Low
+2025-04-17 00:01:18,192.168.1.46,192.168.1.95,HTTP,1009,942,response initiated,0,0,0,5%,Data exfiltration,Low
+2025-04-17 00:00:27,192.168.1.36,192.168.1.35,DNS,688,1321,response initiated,0,1,1,5%,DNS tunneling,Medium
+2025-04-17 00:01:24,192.168.1.19,203.0.113.45,DNS,315,789,C2 initiated,1,0,1,95%,Command and Control (C2) Communication,High
+2025-04-17 00:00:58,192.168.1.98,172.217.5.110,HTTP,927,517,delete initiated,1,0,1,85%,Data Exfiltration,High
+2025-04-17 00:01:30,192.168.1.44,192.168.1.66,HTTP,22,1204,connect initiated,0,1,1,90%,Brute Force SSH Attack,High
+2025-04-17 00:01:33,192.168.1.99,192.168.1.50,DNS,197,1357,query initiated,0,1,1,5%,DNS tunneling,Medium
+2025-04-17 00:00:32,192.168.1.55,192.168.1.98,FTP,490,1336,ack initiated,0,1,1,75%,Brute force attack,High
+2025-04-17 00:01:39,192.168.1.73,192.168.1.29,DNS,757,963,connect initiated,0,0,0,5%,DNS tunneling,Low
+2025-04-17 00:01:42,192.168.1.16,192.168.1.64,SSH,686,1197,connect initiated,0,1,1,70%,Brute Force SSH Attack,High
+2025-04-17 00:01:10,192.168.1.38,192.168.1.73,DNS,986,299,query initiated,0,0,0,5%,DNS tunneling,Low
+2025-04-17 00:00:36,192.168.1.97,192.168.1.31,DNS,44,1144,response initiated,0,1,1,5%,DNS tunneling,Medium
+2025-04-17 00:01:14,192.168.1.27,192.168.1.99,SMB,665,1202,query initiated,0,1,1,75%,Brute-force attack,High
+2025-04-17 00:00:38,192.168.1.91,203.0.113.45,SSH,798,1117,cleanup initiated,1,1,2,85%,Brute force SSH attack,High
+2025-04-17 00:01:57,192.168.1.99,172.217.5.110,SMB,417,178,Upload initiated,1,1,2,85%,Data exfiltration,High
+2025-04-17 00:01:20,192.168.1.72,192.168.1.69,HTTPS,856,680,connect initiated,0,0,0,10%,Data Exfiltration,Low
+2025-04-17 00:02:03,192.168.1.87,192.168.1.69,ICMP,252,877,response initiated,0,1,1,5%,Denial of Service (DoS),Medium
+2025-04-17 00:02:06,192.168.1.22,192.168.1.48,SMB,192,548,connect initiated,0,1,1,75%,Brute Force Attack,High
+2025-04-17 00:00:43,192.168.1.32,192.168.1.86,HTTPS,968,1419,connect initiated,0,1,1,5%,Data Exfiltration,Medium
+2025-04-17 00:01:28,192.168.1.46,192.168.1.92,HTTPS,810,357,ack initiated,0,0,0,5%,Data exfiltration,Low
+2025-04-17 00:02:15,192.168.1.23,192.168.1.11,DNS,828,197,handshake initiated,0,0,0,5%,DNS tunneling,Low
+2025-04-17 00:01:32,192.168.1.44,192.168.1.66,ICMP,122,386,handshake initiated,0,1,1,10%,Denial of Service (DoS),Medium
+2025-04-17 00:01:34,192.168.1.64,172.217.5.110,FTP,78,572,Upload initiated,1,0,1,85%,Data exfiltration,High
+2025-04-17 00:00:48,192.168.1.80,203.0.113.45,HTTP,856,422,Upload initiated,1,0,1,75%,Data exfiltration,High
+2025-04-17 00:00:49,192.168.1.93,192.168.1.34,FTP,619,1333,query initiated,0,1,1,75%,Data Exfiltration,High
